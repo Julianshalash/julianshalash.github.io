@@ -38,7 +38,6 @@ Delivered at Alpin Limited, Dubai.
 |---|---|---|
 | [LLM-powered chatbot](projects/llm-chatbot/README.md) | Answers domain-specific questions for about 100 users, with custom prompt engineering and conversation-context management; users and chat history stored in SQL | OpenAI API, Python, SQL |
 | [Real-time multilingual translation](projects/translation-service/README.md) | Translates files while preserving their structure; cut translation time by up to 80% | Azure Cognitive Services, FastAPI |
-| [Equipment performance model](projects/sensor-regression/README.md) | Regression model on 1,000+ industrial sensor records with leakage checks and RMSE / MAE evaluation on held-out data | Python, scikit-learn, TensorFlow |
 | Emissions reporting dashboards | Power BI and Power Query reports giving stakeholders accurate carbon-emission figures; cut decision time by up to 70–75% | Power BI, Excel Power Query |
 
 ---
@@ -71,8 +70,7 @@ Delivered at Alpin Limited, Dubai.
 └── projects/
     ├── carbon-platform/  README, docs/, images/
     ├── llm-chatbot/
-    ├── translation-service/
-    └── sensor-regression/
+    └── translation-service/
 ```
 
 ## A note on confidentiality
